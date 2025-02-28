@@ -10,7 +10,6 @@ except ModuleNotFoundError:
     import google.generativeai as genai
 import streamlit as st
 from pathlib import Path
-import google.generativeai as genai
 
 from Medical_Chatbot_GenAI.api_key import api_key  # Ensure api_key.py is correctly set up
 
