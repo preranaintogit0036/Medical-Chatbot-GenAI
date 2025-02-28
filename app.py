@@ -1,4 +1,13 @@
 # Import necessary modules
+import sys
+import subprocess
+
+# Check if google-generativeai is installed, if not, install it
+try:
+    import google.generativeai as genai
+except ModuleNotFoundError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "google-generativeai"])
+    import google.generativeai as genai
 import streamlit as st
 from pathlib import Path
 import google.generativeai as genai
