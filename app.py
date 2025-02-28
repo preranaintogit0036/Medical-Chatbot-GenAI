@@ -3,7 +3,7 @@ import streamlit as st
 from pathlib import Path
 import google.generativeai as genai
 
-from api_key import api_key  # Ensure api_key.py is correctly set up
+from Medical-Chatbot-GenAI.api_key import api_key  # Ensure api_key.py is correctly set up
 
 # Set Streamlit page config (MUST be the first command)
 st.set_page_config(page_title="SwastiCare", page_icon="🩺")
